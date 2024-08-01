@@ -97,7 +97,7 @@ pop
 push
 scale 1.5 1.5 1.5
 translate 4.5 -3.5 4
-model assimp "mesh/bunny.obj" bsdf_glossy_reflect_transmit
+model assimp "mesh/bunny.obj" bsdf_diffuse_reflection
 pop
 
 push
@@ -108,7 +108,7 @@ model box bsdf_diffuse_reflection
 pop
 
 push
-scale 5 5 5
+scale 15 15 15
 translate -4 -1 -2
 model assimp "mesh/dragon.obj" bsdf_glossy_reflect_transmit 
 pop

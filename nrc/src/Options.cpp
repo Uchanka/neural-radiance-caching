@@ -31,8 +31,8 @@
 #include <iostream>
 
 Options::Options()
-    : m_width(512)
-      , m_height(512)
+    : m_width(1920)
+      , m_height(1080)
       , m_mode(0)
       , m_optimize(false)
 {
